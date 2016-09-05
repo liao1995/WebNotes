@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>Hello, World!</title>
+	</head>
+	<body>
+		<a name="top">顶部</a><br>
+		<font color="red" size="5">Hello, HTML!</font><br/>
+		<font color="green" size="5">你好，超文本标记语言！</font><br/>
+		<hr size = "5" color = "blue"/>
+		<font color="#66cc66" size="7">你好，超文本标记语言！</font><br/>
+		<!-- commend -->
+		&lt;html&gt;Hello&nbsp;World&lt;html&gt;
+		<dl>
+			<dt>上层列表</dt>
+			<dd>下层列表</dd>
+			<dd>下层列表</dd>
+			<dd>下层列表</dd>
+		</dl>
+		<ol type="i">
+			<li>有序列表</li>
+			<li>有序列表</li>
+			<li>有序列表</li>
+		</ol>
+		<ul type="circle">
+			<li>无序列表</li>
+			<li>无序列表</li>
+			<li>无序列表</li>
+		</ul>
+		<img src="logo.png" width="300" height="100" alt="logo"/>
+		<br>
+		<pre>
+			public static void main(String[] args) {
+				System.out.println("Hello, world!");
+			}
+		</pre>
+		<table border="1" bordercolor="blue" cellspacing="0" width="500" height="100">
+			<caption>人员信息</caption>
+			<tr align="center">
+				<td colspan="3">人员信息</td>
+			</tr>
+			<tr>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>年龄</th>
+			</tr>
+			<tr align="left">
+				<td>李傲</td>
+				<td>男</td>
+				<td>21</td>
+			</tr>
+			<tr align="right">
+				<td>张博</td>
+				<td>男</td>
+				<td>21</td>
+			</tr>
+			<tr align="center">
+				<td>徐杨</td>
+				<td>男</td>
+				<td rowspan="2">22</td>
+			</tr>
+			<tr align="center">
+				<td>徐杨</td>
+				<td>男</td>
+			</tr>
+		</table>
+		<hr/>
+		<form action="../video/play.html" method="post">
+			用户名：<input type="text" name="id"/><br/>
+			密码：<input type="password" name="pwd"/><br/>
+			性别：<input type="radio" name="sex" value="male" checked="checked"/>男<input type="radio" name="sex" value="female"/>女<br/>
+			爱好：<input type="checkbox" name="hobbit" value="y" checked="checked"/>羽毛球<input type="checkbox" name="hobit" value="p"/>乒乓球<br/>
+			照片：<input type="file" name="file"/><br/>
+			生日：<select name="birth">
+				<option value="0">请选择</option>
+				<option value="1991" selected="selected">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+				<option value="1994">1994</option>
+				<option value="1995">1995</option>
+				</select><br/>
+			自我描述：<textarea rows = "3" cols="100" name="introduction"></textarea><br/>
+			隐藏项：<input type="hidden"/><br/>
+			<input value="注册" type="submit"/>
+			<input value="普通" type="button"/>
+			<input value="重置" type="reset"/><br>
+			<input type="image" src="logo.png"/>
+		</form>
+
+		Copyright &copy; 李傲 2016
+		<br>
+		<a href="../video/play.html" target="_blank">Mr.Robot S2E2</a>
+		<a href="#top">回到顶部</a>
+	</body>
+</html>
